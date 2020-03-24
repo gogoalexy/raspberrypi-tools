@@ -3,9 +3,9 @@ sudo apt-get upgrade
 # X Windows and DE
 sudo apt-get install xserver-xorg xinit i3 j4-dmenu-desktop
 # Development tools
-sudo apt-get install cmake git python3-pip python3-dev python-pip python-dev
+sudo apt-get install cmake git hub python3-pip python3-dev python-pip python-dev
 # Basic utility collection
-sudo apt-get install terminator firefox-esr gpac
+sudo apt-get install terminator firefox-esr gpac ffmpeg tree
 # GPIO and camera utility
 sudo apt-get install wiringpi
 sudo pip3 install gpiozero picamera
