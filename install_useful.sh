@@ -5,7 +5,7 @@ sudo apt-get install xserver-xorg xinit i3 j4-dmenu-desktop
 # Development tools
 sudo apt-get install cmake git python3-pip python3-dev python-pip python-dev
 # Basic utility collection
-sudo apt-get install terminator firefox-esr
+sudo apt-get install terminator firefox-esr gpac
 # GPIO and camera utility
 sudo apt-get install wiringpi
 sudo pip3 install gpiozero picamera
@@ -18,6 +18,7 @@ sudo apt-get install libhdf5-dev libhdf5-103 libqtgui4 libqtwebkit4 libqt4-test 
 sudo apt install libilmbase23 libopenexr-dev
 sudo pip3 install numpy opencv-python==4.1.0.25
 # Drone stuff
-sudo pip3 install pyulog dronekit
+sudo apt install python3-lxml python3-yaml libxml2-dev
+sudo pip3 install pyulog MAVProxy dronekit
 # Python basic
 sudo pip install matplotlib
